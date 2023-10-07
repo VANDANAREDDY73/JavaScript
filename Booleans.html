@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+  </head>
+  <body>
+    
+    <script>
+      true
+      false
+      console.log(3>5);
+      const age = 15;
+      if (3<2) {
+        console.log('hello');
+      }else {
+        console.log('else')
+      }
+
+      if (age>=16) {
+        console.log('You can drive');
+      } else if (age>=14) {
+        console.log('Almost there')
+      }else{
+        console.log('You can not drive');
+      }
+      console.log(true && true);
+      console.log(true && false);
+      console.log(false || false);
+      console.log(true || false);
+      console.log(!true);
+      console.log(!false);
+
+      if (1) {
+        console.log('Truthy');
+      }
+      const result=true ? 'truthy' : 'falsy';
+      console.log(result);
+
+      const message=5 && 'hello';
+      console.log(message);
+
+      const currency = undefined||'USD';
+      console.log(currency);
+    </script>
+  </body>
+</html>
